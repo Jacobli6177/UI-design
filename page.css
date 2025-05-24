@@ -4,11 +4,21 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  body.dark-mode {
+  background-color: #121212;
+}
   
   .extension {
     background-color: #3f51b5;
     color: white;
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .extension .color-mode{
+    background-color: gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,10 +34,10 @@ body {
   }
   
   box {
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
     padding: 1rem;
     margin: 1rem;
     border-radius: 8px;
